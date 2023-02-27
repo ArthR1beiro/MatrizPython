@@ -11,3 +11,10 @@ for l in range (0, 4):
     for c in range (0, 4):
         print(f'[{matriz[l][c]}]', end='')
     print()
+
+
+if (rowA == colB):
+    print("É possivel realizar a multiplicação")
+else:
+    print("Não é possivel realizar a multiplicação")
+    
