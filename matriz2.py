@@ -18,3 +18,15 @@ if (rowA == colB):
 else:
     print("Não é possivel realizar a multiplicação")
     
+# linhas = int(input("Digite o número de linhas: "))
+# colunas = int(input("Digite o número de colunas: "))
+
+# matriz = []
+
+# for i in range(linhas):
+#     linha = []
+#     for j in range(colunas):
+#         linha.append(0)
+#     matriz.append(linha)
+
+# print(matriz)
