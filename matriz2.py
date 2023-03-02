@@ -22,6 +22,10 @@ for i in range(linhasB):
     matrizB.append(linhaB)
 
 
+if (linhasA == colunasB):
+    print("É possivel realizar a soma")
+else:
+    print("Não é possivel realizar a soma")
 
 # for l in range (0, 4):
 #     for c in range (0, 4):
