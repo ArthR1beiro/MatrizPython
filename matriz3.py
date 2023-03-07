@@ -9,7 +9,7 @@ while colunasA < 2:
     print("\nO numero deve ser Igual ou maior que 2")
     colunasA = int(input("Digite o número de colunas da Matriz A: "))
     
-linhasB = int(input("\nDigite o número de colunas da Matriz A: "))
+linhasB = int(input("\nDigite o número de colunas da Matriz B: "))
 while linhasB < 2:
     print("\n(O numero deve ser Igual ou maior que 2)")
     linhasB = int(input("Digite o número de linhas da Matriz B: "))
@@ -18,7 +18,6 @@ colunasB = int(input("\nDigite o número de colunas da Matriz B: "))
 while colunasB < 2:
     print("\nO numero deve ser Igual ou maior que 2")
     colunasB = int(input("Digite o número de colunas da Matriz B: "))
-
 
 matrizA = []
 
@@ -35,7 +34,6 @@ for i in range(linhasB):
     for j in range(colunasB):
         linhaB.append(0)
     matrizB.append(linhaB)
-
 
 if (linhasA == colunasB):
     print("É possivel realizar a soma")
@@ -63,5 +61,12 @@ if (linhasA == colunasB):
         for c in range (colunasB):
             print(f'[{matrizB[l][c]}]', end='')
         print()
+
+    print(f"Matriz c {linhasA}x{colunasA}\n")
+    for l in range (linhasA):
+        for c in range (colunasA):
+            print(f'[{matrizA[l][c]+matrizB[l][c]}]', end='')
+        print()
+
 else:
     print("\nNão é possivel realizar a soma")
