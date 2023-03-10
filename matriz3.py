@@ -62,12 +62,12 @@ if (linhasA == colunasB):
             print(f'[{matrizB[l][c]}]', end='')
         print()
 
-    print('-='*30)
-    print(f"Matriz C {linhasA}x{colunasA}\n")
-    for l in range (linhasA):
-        for c in range (colunasA):
-            print(f'[{matrizA[l][c]+matrizB[l][c]}]', end='')
-        print()
+    # print('-='*30)
+    # print(f"Matriz C {linhasA}x{colunasA}\n")
+    # for l in range (linhasA):
+    #     for c in range (colunasA):
+    #         print(f'[{matrizA[l][c]+matrizB[l][c]}]', end='')
+    #     print()
     
 else:
     print('-='*30)
