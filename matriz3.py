@@ -35,8 +35,8 @@ for i in range(linhasB):
         linhaB.append(0)
     matrizB.append(linhaB)
 
-if (linhasA == colunasB):
-    print("É possivel realizar a soma")
+if (colunasA == linhasB):
+    print("É possivel realizar a multiplicação")
     print('-='*30)
 
     print("Digite os valores para Matriz A\n")
@@ -71,4 +71,4 @@ if (linhasA == colunasB):
     
 else:
     print('-='*30)
-    print("\nNão é possivel realizar a soma")
+    print("\nNão é possivel realizar a multiplacação")
