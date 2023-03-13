@@ -62,8 +62,20 @@ if (colunasA == linhasB):
             print(f'[{matrizB[l][c]}]', end='')
         print()
 
+
+    matrizC = [[0 for _ in range(len(matrizB[0]))] for _ in range(len(matrizA))]
+    for i in range(len(matrizA)):
+        for j in range(len(matrizB[0])):
+            for k in range(len(matrizB)):
+                matrizC[i][j] += matrizA[i][k] * matrizB[k][j]
+
     print('-='*30)
-    print(f"C = A x B\nMatriz C {colunasA}x{linhasB}\n")
+    print(f"C = A x B\nMatriz C {len(matrizC)}x{len(matrizC[0])}\n")
+
+    for l in range (len(matrizC)):
+        for c in range (len(matrizC[0])):
+            print(f'[{matrizC[l][c]}]', end='')
+        print()
     
 else:
     print('-='*30)
