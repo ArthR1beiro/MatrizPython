@@ -16,3 +16,10 @@ for i in range(n):
 # Imprima as matrizes resultantes
 print("Matriz triangular inferior:\n", matriz_inf)
 print("Matriz triangular superior:\n", matriz_sup)
+
+ # print('-='*30)
+    # print(f"Matriz C {linhasA}x{colunasA}\n")
+    # for l in range (linhasA):
+    #     for c in range (colunasA):
+    #         print(f'[{matrizA[l][c]+matrizB[l][c]}]', end='')
+    #     print()
