@@ -76,7 +76,8 @@ if (colunasA == linhasB):
         for c in range (len(matrizC[0])):
             print(f'[{matrizC[l][c]}]', end='')
         print()
-    
+    print("\nPrograma Finalizado.")
+
 else:
     print('-='*30)
     print("\nNão é possivel realizar a multiplacação")
